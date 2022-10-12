@@ -1,0 +1,10 @@
+.centrar {
+    align-items: center;
+    text-align: center;
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
