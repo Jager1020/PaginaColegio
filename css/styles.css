@@ -13,3 +13,8 @@
     max-width: 50%;
     margin: auto;
 }
+
+.contenedor-espacio {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
