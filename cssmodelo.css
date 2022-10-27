@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Declaracion de variables */
+:root {
+    /* Variables para la paletas de colores */
+    --color-blanco: #fff;
+    --color-azul: #3079d9;
+    --color-grisoscuro: #454545;
+    --color-celesteclaro: #D0DFF2;
+    --color-negro: #000;
+
+    /* Variables para tipos de letra */
+    --fuente-principal: 'Poppis', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fuente-principal);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 200;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+p{
+    line-height: 1.5;
+    padding-bottom: 8px;
+}
+
+#cabecera {
+    background-color: var(--color-blanco);
+    color: var(--color-azul);
+    /* text-shadow: 5px 5px 2px rgba(0,0,0,0.6); */
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#cabecera h1 {
+    text-shadow: 5px 5px 2px rgba(0,0,0,0.6);
+}
+
+#nosotros {
+    background-color: var(--color-grisoscuro);
+    color: var(--color-blanco);
+}
+
+#historia {
+    background-color: var(--color-celesteclaro);
+    color:var(--color-grisoscuro) ;
+}
+
+#alumnos {
+    background-color: var(--color-blanco);
+    color: var(--color-grisoscuro);
+}
+
+#alumnos h3 {
+    text-align: center;
+}
+
+#alumnos img {
+    border-radius: 320px;
+}
+
+#programas {
+    background-color:var(--color-grisoscuro);
+    color: var(--color-blanco);
+}
+
+#graduacion {
+    background-image: url(../imagenes/graduacion.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    /*background-attachment: fixed; Para poner la imagen fija y las cosas se superpongan*/
+}
+
+#eventos {
+    background-color: var(--color-blanco);
+    color: var(--color-grisoscuro);
+}
+
+#eventos>.container>.row>.column {
+    border: 3px solid #e6effb;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+
+    box-shadow: 0 15px 20px 0 rgb(32 54 70 / 20%) !important;
+    /* box-shadow: 3px 4px 10px 4px rgba(0, 0, 0, 0.4); */
+}
+
+#pie {
+    background-color: var(--color-azul);
+    color: var(--color-blanco);
+    padding-top: 45px;
+    padding-bottom: 45px;
+    line-height: 36px;
+}
+
+#pie a {
+    color: var(--color-blanco);
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#pie .redes-sociales i {
+    font-size: 30px;
+}
+
+#pie .row {
+    justify-content: space-between;
+}
+
+.espaciado{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex; /* Activa el felxbox*/
+    flex-direction: row; /*Coloca lsoe lementso uno al costado del otro*/
+
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.column {
+    flex-basis: 0px; /*Quita el ancho de la columna*/
+    flex-grow: 1;/*Hace que la columna crezca proporcionalmente*/
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.column-50 {
+    /* Para darle un atmaño a la caja del 50% del row */
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.column-33 {
+    /* Para darle un atmaño a la caja del 33% del row */
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+}
+
+.img_ajustarancho {
+    width: 100%;
+    height: auto;
+}
+
+.texto_enorme {
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.texto_resaltado {
+    font-weight: 900;
+    color: var(--color-azul);
+}
+
+.texto_semibold {
+    color: var(--color-azul);
+    font-weight: 700;
+}
+
+/* Estilos de NAVBAR */
+
+.logo {
+    width: 120px;
+}
+
+.menu-barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-opciones{
+    list-style-type: none;
+}
+
+.menu-opciones a{
+    text-decoration: none;
+    color: var(--color-azul);
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-items li {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    border-bottom: transparent 3px solid;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-items li:hover {
+    border-bottom: var(--color-azul) 3px solid;
+}
+
+
+.constuccion {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
