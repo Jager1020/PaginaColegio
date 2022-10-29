@@ -1,0 +1,35 @@
+:root {
+    --color-rosado: #FFA3DB;
+    --color-rosado2: #DE3179;
+    --color-rojo: #CF4053;
+    --color-morado: #7B0FA7;
+    --color-celeste: #58ACDF;
+    --coplor-azul: #019BDD;
+    --color-naranja: #F7B63F;
+    --color-verde: #99BF11;
+    --color-negro: black;
+    --color-blanco: white;
+}
+
+#somos {
+    text-align: center;
+    background-color: var(--color-rosado);
+    margin: 50px;
+    padding: 40px;
+}
+
+#mision {
+    text-align: center;
+    background-color: #E4E4E4;
+    margin: 50px;
+    padding: 40px; 
+}
+
+#somos h2 {
+    padding-bottom: 30px;
+}
+
+.img_mision {
+    width: 100%;
+    height: 300px;
+}

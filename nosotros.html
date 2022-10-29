@@ -6,37 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nosotros.css">
     <title>Nosotros</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light px-3">
-        <a class="navbar-brand fs-3" href="index.html">
-            <img src="assets/escudosr.png" alt="Logo" width="52" height="39" class="d-inline-block align-text-top">
-            I.E.P Santa Rosa
-          </a>
-          <div class="container-fluid ">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse navbar-center fs-4" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="nivel_academico.html">Nivel Academico</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="admision.html">Admisión</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contactanos.html">Contactanos</a>
-                  </li>
-              </ul>
+    <header id="cabecera">
+      <div class="container">
+        <nav class="menu-barra">
+          <div class="titulo">
+            <div class="logo">
+              <img src="assets/escudosr.png" alt="" class="img_ajustarancho">
             </div>
+            <h2>Santa Rosa</h2>
           </div>
-    </nav>
+          <ul class="menu-opciones">
+            <div class="menu-items">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="">Admision</a></li>
+                <li><a href="">Contactanos</a></li>
+            </div><!--menu-items-->
+        </ul><!--menu-opciones-->
+        </nav>
+      </div>
+    </header>
 
-    <script src="js/bootstrap.min.js"></script>
+    <section id="somos" class="">
+      <div class="">
+        <div class="row">
+          <div class="column">
+            <img src="assets/secundaria.jpg" alt="" class="img_ajustarancho">
+          </div>
+          <div class="column">
+            <h2>Quienes somos</h2>
+            <p>Le damos la bienvenida a nuestra institución Educativa Privada, Así mismo gustosos de compartir ideas y trabajar junto a uds. por el supremo objetivo que es la educación y el bienestar de sus hijos. También incentivamos el descubrimiento de las aptitudes propias de cada estudiante, para que así afronte su vida profesional con todas las herramientas necesarias para su éxito personal. Además, orientamos al estudiante a la práctica permanente de valores y del desarrollo de su pensamiento crítico como también analítico, de tal manera que formemos ciudadanos con una sólida base moral, ética y cívica.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="mision" class="">
+      <div class="">
+        <div class="row">
+          <div class="column">
+            <img src="assets/mision_vision.jpeg" alt="" class="img_mision">
+            <h2>Visión</h2>
+            <p>Preparar a nuestros estudiantes para su vida profesional y educarlos para lograr todos sus proyectos personales gracias al desarrollo, investigación e innovación de nuestros métodos de aprendizaje, de la mano con la capacitación constante de nuestros docentes.  </p>
+          </div>
+          <div class="column">
+            <img src="assets/mision_solo.jpeg" alt="" class="img_mision">
+            <h2>Misión</h2>
+            <p>Formar a los mejores líderes en valores y conocimientos, brindándoles a todos nuestros estudiantes la calidad educativa necesaria para su correcta formación integral, asimismo, desarrollaremos sus habilidades creativas, deportivas y sobre todo humanísticas. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="pie">
+      <div class="container">
+          <div class="row">
+              <div class="copyright">
+                  &copy; 2022 | Colegio Santa Rosa
+              </div>
+              <div class="correo-telefono">
+                  <a href="mailto:admision@isil.pe">
+                      <i class="fa-solid fa-envelope"></i>
+                      admision@sabtarosa.pe
+                  </a>
+                  <a href="tel:51017060000">
+                      <i class="fa-solid fa-phone"></i>
+                      (+51) 01 706-0000
+                  </a>
+              </div>
+              <div class="redes-sociales">
+                  <a href="https://www.facebook.com/ISILpe" target="_blank">
+                      <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="">
+                      <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="">
+                      <i class="fa-brands fa-youtube"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </footer>
   </body>
 </html>
