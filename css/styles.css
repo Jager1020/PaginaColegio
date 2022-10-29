@@ -1,9 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Mulish:wght@300;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
+:root {
+    --color-rosado: #FFA3DB;
+    --color-rosado2: #DE3179;
+    --color-rojo: #CF4053;
+    --color-morado: #7B0FA7;
+    --color-celeste: #58ACDF;
+    --coplor-azul: #019BDD;
+    --color-naranja: #F7B63F;
+    --color-verde: #99BF11;
+    --color-negro: black;
+    --color-blanco: white;
 
+    --funte-titulos: 'Montserrat', sans-serif;
+    --fuente-parrafos: 'Mulish', sans-serif; 
+}
+
+h1 {
+    font-family: var(--funte-titulos);
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: var(--funte-titulos);
+    font-weight: 500;
+    font-size: 40px;
+    color: var(--color-negro);
+}
+
+h3 {
+    font-family: var(--funte-titulos);
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--color-negro);
+}
+
+p {
+    font-family: var(--fuente-parrafos);
+    font-weight: 400;
+}
 
 #cabecera {
     padding-top: 20px;
@@ -12,7 +53,7 @@
 
 #presentacion {
     text-align: center;
-    background-color: #FF4F8F80;
+    background-color: var(--color-rosado);
 }
 
 #presentacion .row {
@@ -23,12 +64,46 @@
     border-radius: 8%;
 }
 
+#nivel {
+    text-align: center;
+    background-color: #E4E4E4;
+}
+
+#nivel h2 {
+    padding-bottom: 40px;
+}
+
+
+#nivel img {
+    border-radius: 50%;
+}
+
+#nivel button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
 #servicios {
     text-align: center;
 }
 
 #servicios h2 {
     padding-bottom: 50px;
+}
+
+#servicios h3 {
+    padding-bottom: 30px;
+    color: var(--color-blanco);
+}
+
+#servicios p {
+    color: var(--color-blanco);
+}
+
+#servicios img {
+    border-radius: 30px;
 }
 
 #servicios>.container>.row{
@@ -107,7 +182,7 @@
 }
 
 .rosado {
-    background-color: #FF4F8F80;
+    background-color: #FF4F8F;
 }
 
 .gris {
@@ -116,6 +191,11 @@
 
 .tarjeta {
     padding: 10px;
+}
+
+.img_niveles {
+    height: 150px;
+    width: 150px;
 }
 /* NAVBAR */
 
@@ -137,6 +217,7 @@
 }
 
 .titulo h2 {
+    font-weight: 700;
     font-size: 40px;
     margin-left: 10px;
 }
@@ -148,6 +229,8 @@
 .menu-opciones a{
     text-decoration: none;
     color: black;
+    font-family: var(--funte-titulos);
+    font-weight: 500;
 }
 
 .menu-items {
