@@ -18,15 +18,19 @@
     padding: 40px;
 }
 
+#somos h2 {
+    padding-bottom: 30px;
+}
+
+#somos img {
+    border-radius: 30px;
+}
+
 #mision {
     text-align: center;
     background-color: #E4E4E4;
     margin: 50px;
     padding: 40px; 
-}
-
-#somos h2 {
-    padding-bottom: 30px;
 }
 
 .img_mision {

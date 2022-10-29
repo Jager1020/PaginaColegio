@@ -146,7 +146,7 @@ p {
 }
 
 .container {
-    max-width: 80%;
+    max-width: 85%;
     margin: auto;
 }
 
@@ -175,6 +175,14 @@ p {
 
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.column-40 {
+    padding-left: 10px;
+    padding-right: 10px;
+    /* Para darle un atmaño a la caja del 33% del row */
+    flex-basis: 40%;
+    max-width: 40%;
 }
 
 .espacio-30 {
