@@ -1,0 +1,100 @@
+:root {
+    --color-rosado: #FFA3DB;
+    --color-rosado2: #DE3179;
+    --color-rojo: #CF4053;
+    --color-morado: #7B0FA7;
+    --color-celeste: #58ACDF;
+    --coplor-azul: #019BDD;
+    --color-naranja: #F7B63F;
+    --color-verde: #99BF11;
+    --color-negro: black;
+    --color-blanco: white;
+    --color-gris: #E4E4E4;
+    --color-grisoscuro: #676767;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+#atencion {
+    background-color: var(--color-gris);
+    margin: 50px;
+    padding: 40px; 
+}
+
+#atencion h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#ubicacion {
+    background-color: var(--color-rosado);
+    margin: 50px;
+    padding: 50px;
+}
+
+#ubicacion h2{
+    text-align: center;
+    padding-bottom: 40px;
+}
+  
+.form-register {
+    height: 500px;
+    width: 500px;
+    background: var(--color-rosado);
+    padding: 30px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+  
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+  
+.controls {
+    width: 100%;
+    background: var(--color-gris);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid var(--color-rosado2);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: var(--color-negro);
+}
+  
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+  
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+  
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+  
+.form-register .botons {
+    width: 100%;
+    background: var(--color-grisoscuro);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+  

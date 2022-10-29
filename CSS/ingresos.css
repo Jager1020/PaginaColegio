@@ -1,0 +1,46 @@
+:root {
+    --color-rosado: #FFA3DB;
+    --color-rosado2: #DE3179;
+    --color-rojo: #CF4053;
+    --color-morado: #7B0FA7;
+    --color-celeste: #58ACDF;
+    --coplor-azul: #019BDD;
+    --color-naranja: #F7B63F;
+    --color-verde: #99BF11;
+    --color-negro: black;
+    --color-blanco: white;
+    --color-gris: #E4E4E4;
+    --color-grisoscuro: #676767;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#persona {
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-gris);
+}
+
+#persona h2 {
+    padding-bottom: 30px;
+}
+
+#persona button {
+    padding: 40px;
+    margin-bottom: 30px;
+    background-color: var(--color-rosado);
+    border-radius: 40px;
+    font-size: 35px;
+}
+
+.usuario a {
+    text-decoration: none;
+    color: var(--color-negro);
+}
